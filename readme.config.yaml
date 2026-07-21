@@ -1,0 +1,11 @@
+repo: owner/repo
+github_token: ${GITHUB_TOKEN}
+widgets:
+  - type: profile-stats
+    username: flyrank
+  - type: repo-stats
+    show_languages: true
+    show_commits: true
+  - type: visitor-badge
+  - type: streak
+    user: flyrank
